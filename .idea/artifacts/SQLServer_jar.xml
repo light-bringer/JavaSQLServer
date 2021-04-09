@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="SQLServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SQLServer_jar</output-path>
+    <root id="root">
+      <element id="archive" name="SQLServer.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="SQLServer" />
+      </element>
+      <element id="library" level="project" name="Maven: com.microsoft.sqlserver:mssql-jdbc:9.2.1.jre8" />
+      <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.4" />
+    </root>
+  </artifact>
+</component>
